@@ -31,3 +31,28 @@ main {
 img {
     max-width: 90%;
 }
+
+#menusuperior{
+    background-color: ;
+    color: mediumblue;
+}
+#menuinferior{
+    background-color: rgb(249, 248, 248);
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.textoinformativo{
+    display: grid;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 75px;
+    margin-left: 20px;
+}
+
+.spaninformativo{
+    font-size: 20px;
+    font-weight: normal;
+}
