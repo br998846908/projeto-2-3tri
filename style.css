@@ -32,11 +32,11 @@ img {
     max-width: 90%;
 }
 
-#menusuperior{
     background-color: ;
     color: mediumblue;
 }
-#menuinferior{
+#menuinferior{#menusuperior{
+
     background-color: rgb(249, 248, 248);
     display: grid;
     grid-auto-flow: column;
@@ -55,4 +55,12 @@ img {
 .spaninformativo{
     font-size: 20px;
     font-weight: normal;
+}
+
+#menuconteudo{
+     background-color: rgb(119, 242, 230);
+     display:grid;
+     display:autoflow;
+     columns: auto;
+     
 }
