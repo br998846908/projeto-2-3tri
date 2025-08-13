@@ -119,6 +119,14 @@ boton{
     cursor-pointer: 
 }
 
+button.hover{
+    background-color: #f88e;
+    color:whiet;
+    transform: translateW[-3px];
+    box-shadow: 0px 10px 15px #f1bd73;
+    transition-duration: 0.3s;
+}
+    
 
 
 
