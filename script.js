@@ -1,11 +1,7 @@
-const avanca = document.querySelectorAll('.btn-proximo');
+sr.reveal("#image" , {duration:1000});
 
-avanca.forEach(button => {
-    button.addEventListener('click', function(){
-        const atual = document.querySelector('.ativo');
-        const proximoPasso = 'passo-' + this.getAttribute('data-proximo');
+sr.reveal("#textoconteudo" , {
+  rotate: {x: 0, y: 100, z: 0},
+  duration:1500});
 
-        atual.classList.remove('ativo');
-        document.getElementById(proximoPasso).classList.add('ativo');
-    })
-})
+sr.reveal("#formulario" , {duration:1000});
