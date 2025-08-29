@@ -1,48 +1,30 @@
-body {
-    background-color: #1D4221;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
-    margin: 0;
+*{
+    margin:0px;
+    font-family: monospace;
 }
-
-button {
-    background-color: #64A712;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+#titulosuperior{
+    margin-left: 50px;
+    padding-top: 150px;
+    font-size: 75px;
+    letter-spacing: -1.5px;
 }
-
-.passo {
-    display: none;
+#textosuperior{
+    margin-left:50px;
+    margin-top:35px;
+    padding-bottom:150px;
+    font-size: 25px;
+    letter-spacing: 0px;
 }
-
-.passo.ativo {
-    display:block;
+#menusuperior{
+    background-color: rgb(176, 26, 26);
+    color: (srgb rgb(33, 175, 80) green blue);
 }
-
-main {
-    text-align: center;
-    max-width: 90%;
-}
-
-img {
-    max-width: 90%;
-}
-
-    background-color: ;
-    color: mediumblue;
-}
-#menuinferior{#menusuperior{
-
-    background-color: rgb(249, 248, 248);
+#menuinformativo{
+    background-color: rgb(219, 212, 11);
     display: grid;
     grid-auto-flow: column;
-    columns: auto;
+    column-span: auto;
 }
-
 .textoinformativo{
     display: grid;
     align-items: center;
@@ -50,100 +32,69 @@ img {
     font-weight: bolder;
     padding: 75px;
     margin-left: 20px;
-}
-
-.spaninformativo{
-    font-size: 20px;
+}    
+.spaninformativo{ font-size: 20px;
     font-weight: normal;
 }
-
 #menuconteudo{
-     background-color: rgb(119, 242, 230);
-     display:grid;
-     display:autoflow;
-     columns: auto;
+    background-color: #0fb755;
+    display: grid;
+    grid-auto-flow:column;
+    columns:auto;
 }
-
-image {
+#imagns{
     margin: 100px 25px 100px 100px;
 }
-
 #textoconteudo{
     text-align: justify;
     font-size: 40px;
     font-weight: bolder;
     margin: 260px 25px 50px 100px;
 }
-
-#image, #textoconteudo, #formulario{
+#imagens, #textoconteudo, #formulario{
     visibility: hidden;
 }
-
-#espamconteudo{
-    text-align: justify
+#spanconteudo{
+    text-align: justify;
     font-size: 24px;
     font-weight: normal;
 }
-
 #formulario{
-    background-color: blue;
+    background-color: rgb(88, 5, 54);
     text-align: center;
 }
-
-
-#titulofomulario{
+#tituloformulario{
     font-size: 32px;
     padding: 70px 70px 20px 70px;
-    color:aqua;
+    color: #8a0303;
 }
-
 input{
     width: 400px;
-    height: 60px:
-    backgroud-color: 
-    
-    border 
-}
-
-boton{
-    background:color #c07212;
-    height: 70px;
-    width: 220px;
-    color: #eaece5;
-    border: 0px;
+    height: 60px;
+    background-color: rgb(4, 0, 255);
+    margin: 25px;
+    border: 1px;
     border-radius: 10px;
-    margen-top: 50px
-    bottom: 100px;
-    font-weight: bolder;
-    font-size: 30px;
-    cursor-pointer: 
+    padding-left: 10px;
+}
+button{
+    background-color:#c07212;
+    height:70px;
+    width:220px;
+    color: #7eaa0e;
+    border:0px;
+    border-radius:10px;
+    margin-top:50px;
+    margin-bottom:100px;
+    font-weight:bolder;
+    font-size:30px;
+    cursor:pointer;
+}
+button.houver{
+    background-color:#f88e0c;
+    color:rgb(126, 7, 7);
+    transform: translateY(-3px);
+    box-shadow:0px 10px 15px #6c4002;
+    transition-duration:0.3s;
 }
 
-button.hover{
-    background-color: #f88e;
-    color:whiet;
-    transform: translateW[-3px];
-    box-shadow: 0px 10px 15px #f1bd73;
-    transition-duration: 0.3s;
-}
-    
-
-
-
-
-    
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-    
-    
