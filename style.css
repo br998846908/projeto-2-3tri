@@ -16,8 +16,8 @@
     letter-spacing: 0px;
 }
 #menusuperior{
-    background-color: rgb(176, 26, 26);
-    color: (srgb rgb(33, 175, 80) green blue);
+    background-color: rgb(252, 4, 4);
+    color: (srgb rgb(242, 242, 242) rgb(246, 248, 246) rgb(13, 13, 132));
 }
 #menuinformativo{
     background-color: rgb(219, 212, 11);
@@ -37,7 +37,7 @@
     font-weight: normal;
 }
 #menuconteudo{
-    background-color: #0fb755;
+    background-color: #d9e7de;
     display: grid;
     grid-auto-flow:column;
     columns:auto;
@@ -66,22 +66,22 @@
 #tituloformulario{
     font-size: 32px;
     padding: 70px 70px 20px 70px;
-    color: #8a0303;
+    color: #ea0505;
 }
 input{
     width: 400px;
     height: 60px;
-    background-color: rgb(4, 0, 255);
+    background-color: rgb(1, 82, 12);
     margin: 25px;
     border: 1px;
     border-radius: 10px;
     padding-left: 10px;
 }
 button{
-    background-color:#c07212;
+    background-color:#6a0254;
     height:70px;
     width:220px;
-    color: #7eaa0e;
+    color: #4a6702;
     border:0px;
     border-radius:10px;
     margin-top:50px;
@@ -91,10 +91,10 @@ button{
     cursor:pointer;
 }
 button.houver{
-    background-color:#f88e0c;
-    color:rgb(126, 7, 7);
+    background-color:#770367;
+    color:rgb(7, 6, 6);
     transform: translateY(-3px);
-    box-shadow:0px 10px 15px #6c4002;
+    box-shadow:0px 10px 15px #462900;
     transition-duration:0.3s;
 }
 
